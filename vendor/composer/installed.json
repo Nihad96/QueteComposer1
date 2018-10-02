@@ -1,0 +1,37 @@
+[
+    {
+        "name": "ehime/hello-world",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ehime/hello-world.git",
+            "reference": "adfe440ba09375fb762270cb7f8d7249de6bdf4a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ehime/hello-world/zipball/adfe440ba09375fb762270cb7f8d7249de6bdf4a",
+            "reference": "adfe440ba09375fb762270cb7f8d7249de6bdf4a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-07-29T16:24:08+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "HelloWorld": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "ehime || Jd Daniel",
+                "email": "dodomeki@gmail.com"
+            }
+        ],
+        "description": "My first Composer project"
+    }
+]

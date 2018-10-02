@@ -1,0 +1,16 @@
+{
+    "name": "nihad/composer",
+    "authors": [
+        {
+            "name": "Nihad96",
+            "email": "nihad.zatric@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+      "psr-4": {
+        "": "..src/"
+    }
+  }
+}
